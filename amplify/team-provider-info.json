@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-csaweb-dev-112614-authRole",
+      "UnauthRoleArn": "arn:aws:iam::171330557233:role/amplify-csaweb-dev-112614-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::171330557233:role/amplify-csaweb-dev-112614-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-csaweb-dev-112614-deployment",
+      "UnauthRoleName": "amplify-csaweb-dev-112614-unauthRole",
+      "StackName": "amplify-csaweb-dev-112614",
+      "StackId": "arn:aws:cloudformation:ap-south-1:171330557233:stack/amplify-csaweb-dev-112614/80eea4c0-10c1-11ee-8287-024c8cd7537c",
+      "AmplifyAppId": "d3mb93ppk5wv7j"
+    },
+    "categories": {
+      "function": {
+        "csauserlambda": {
+          "deploymentBucketName": "amplify-csaweb-dev-112614-deployment",
+          "s3Key": "amplify-builds/csauserlambda-374a4a6c6b544c793731-build.zip"
+        }
+      },
+      "api": {
+        "csarestapi": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "api": {
+    "csarestapi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "csauserlambda"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "csauserlambda": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_csauserlambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "csauserlambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_csauserlambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "csauserlambda"
+        }
+      ]
+    }
+  }
+}
